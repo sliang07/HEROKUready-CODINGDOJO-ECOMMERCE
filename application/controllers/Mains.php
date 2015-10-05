@@ -4,7 +4,6 @@ class Mains extends CI_Controller {
 
 	public function __construct()
 	{
-		$this->load->library('session'); 
 		parent::__construct();
 		// $this->output->enable_profiler();
 		$this->load->model('main');
