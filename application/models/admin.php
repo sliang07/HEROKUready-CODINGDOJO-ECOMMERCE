@@ -245,7 +245,8 @@ class Admin extends CI_Model
 	function get_product_quantity_by_id($id)
 	{
 		return $this->db->query("SELECT product_quantity_sold.id, product_quantity_sold.order_id, 
-								product_quantity_sold.quantity_sold, products.name, products.price 
+								product_quantity_sold.quantity_sold, products.name, products.price,
+								products.id 
 								FROM product_quantity_sold 
 								LEFT JOIN products
 								ON product_quantity_sold.product_id = products.id
