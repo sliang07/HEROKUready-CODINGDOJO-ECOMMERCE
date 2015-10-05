@@ -61,11 +61,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $active_group = 'default';
 $active_record = TRUE;
-$query_builder = TRUE;
-
+// $query_builder = TRUE;
 if(ENVIRONMENT == 'production')
 {
-	$db['default']['hostname'] = 'us-cdbr-iron-east-03.clear.net';
+	$db['default']['hostname'] = 'us-cdbr-iron-east-03.cleardb.net';
 	$db['default']['username'] = 'ba7cd972aca987';
 	$db['default']['password'] = '7f991e4e';
 	$db['default']['dbdriver'] = 'mysql';
@@ -73,7 +72,7 @@ if(ENVIRONMENT == 'production')
 }
 else
 {
-	$db['default']['hostname'] = 'us-cdbr-iron-east-03.clear.net';
+	$db['default']['hostname'] = 'us-cdbr-iron-east-03.cleardb.net';
 	$db['default']['username'] = 'ba7cd972aca987';
 	$db['default']['password'] = '7f991e4e';
 	$db['default']['dbdriver'] = 'mysql';
@@ -83,7 +82,7 @@ else
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'us-cdbr-iron-east-03.clear.net',
+	'hostname' => 'us-cdbr-iron-east-03.cleardb.net',
 	'username' => 'ba7cd972aca987',
 	'password' => '7f991e4e',
 	'database' => 'heroku_cfd64fa1812f42c',
