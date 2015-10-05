@@ -83,11 +83,11 @@ else
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'pokecommerce_schema',
-	'dbdriver' => 'mysqli',
+	'hostname' => 'us-cdbr-iron-east-03.clear.net',
+	'username' => 'ba7cd972aca987',
+	'password' => '7f991e4e',
+	'database' => 'heroku_cfd64fa1812f42c',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => TRUE,
 	'db_debug' => TRUE,
