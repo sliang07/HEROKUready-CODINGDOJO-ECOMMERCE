@@ -67,7 +67,7 @@ if(ENVIRONMENT == 'production')
 	$db['default']['hostname'] = 'us-cdbr-iron-east-03.cleardb.net';
 	$db['default']['username'] = 'ba7cd972aca987';
 	$db['default']['password'] = '7f991e4e';
-	$db['default']['dbdriver'] = 'mysql';
+	$db['default']['dbdriver'] = 'mysqli';
 	$db['default']['database'] = 'heroku_cfd64fa1812f42c';
 }
 else
@@ -75,7 +75,7 @@ else
 	$db['default']['hostname'] = 'us-cdbr-iron-east-03.cleardb.net';
 	$db['default']['username'] = 'ba7cd972aca987';
 	$db['default']['password'] = '7f991e4e';
-	$db['default']['dbdriver'] = 'mysql';
+	$db['default']['dbdriver'] = 'mysqli';
 	$db['default']['database'] = 'heroku_cfd64fa1812f42c';
 }
 
@@ -86,7 +86,7 @@ $db['default'] = array(
 	'username' => 'ba7cd972aca987',
 	'password' => '7f991e4e',
 	'database' => 'heroku_cfd64fa1812f42c',
-	'dbdriver' => 'mysql',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => TRUE,
 	'db_debug' => TRUE,
