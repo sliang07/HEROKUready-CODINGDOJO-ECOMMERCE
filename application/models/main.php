@@ -1,5 +1,5 @@
 <?php
-class Main extends CI_Model
+class main extends CI_Model
 {
 	function get_cart()
 	{
