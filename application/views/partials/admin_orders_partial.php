@@ -1,5 +1,5 @@
 <?php date_default_timezone_set('America/Los_Angeles');?>
-<table class="table table-bordered" class="col-md-12">
+<table class="table table-bordered">
 	<tr>
 		<th>Order ID</th>
 		<th>Shipping Full Name</th>

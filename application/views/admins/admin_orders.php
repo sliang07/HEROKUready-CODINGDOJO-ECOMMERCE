@@ -62,7 +62,7 @@
 						<option value="canceled">Canceled</option>
 					</select>
 				</div>
-				<div id ="table_spot">
+				<div id ="table_spot" class="col-md-12">
 					<?php require('application/views/partials/admin_orders_partial.php') ?>
 				</div>
 			</div>

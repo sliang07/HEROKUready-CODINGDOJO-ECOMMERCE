@@ -57,7 +57,7 @@
 				<div class="col-md-9">
 					<a class="btn btn-primary" href="/admin/dashboard/products/add" role="button">Add New Product</a>
 				</div>
-				<div id ="table_spot">
+				<div id ="table_spot" class="col-md-12">
 <?					require('application/views/partials/admin_products_partial.php') ?>
 				</div>
 			</div>
