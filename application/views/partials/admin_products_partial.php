@@ -10,7 +10,7 @@
 	</tr>
 	<?php foreach ($products as $product) { ?>
 	<tr>
-		<td><img src="\<?= $product['filename'] ?>" alt="<?= $product['name']?>" title="<?= $product['name']?>" /></td>
+		<td><img src="/<?= $product['filename'] ?>" alt="<?= $product['name']?>" title="<?= $product['name']?>" /></td>
 		<td><?= $product['product_id'] ?></td>
 		<td><?= $product['name'] ?></td>
 		<td><?= $product['inventory_count'] ?></td>
