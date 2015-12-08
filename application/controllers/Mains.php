@@ -8,6 +8,7 @@ class Mains extends CI_Controller {
 		// $this->output->enable_profiler();
 		$this->load->model('main');
 		// $this->session->sess_destroy();
+		$this->db->reconnect();
 	}
 
 	public function index()
