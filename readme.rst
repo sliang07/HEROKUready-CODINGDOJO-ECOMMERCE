@@ -13,5 +13,5 @@ Release Information
 *******************
 
 This is the same application as https://github.com/jaypatrickm/CODINGDOJO-CODEIGNITER-PokeCommerce
-I have fixed some code issues that conflict with firefox browser.
+Fixed some code issues that conflict with firefox browser.
 Current project HEROKU ready.
