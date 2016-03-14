@@ -20,6 +20,7 @@
 				<button type="submit" class="btn btn-default">Submit</button>
 			</form>
 			<ul class="nav navbar-nav navbar-right">
+				<li><a class="navbar-brand" href="/admin">Go To Admin</a></li>
 				<li><a href="/checkout">Shopping Cart (<?= $this->session->userdata('carttotal')?>)</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
